@@ -9,6 +9,7 @@ return (
            <Image src={logoo} alt="" height={50} width={50} />
         </div>
         {/* MENU SIDE */}
+        
         <ul className="css menu">
             <li>صفحه اصلی</li>
             <li></li>
