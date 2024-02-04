@@ -1,10 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 
+@font-face {
+  font-family: 'vazir';
+  src: url('/path/to/font.ttf') format('truetype');
+  /* اگر فونت شما فرمت woff2 دارد */
+   src: url('../assets/fonts/Vazir.woff2') format('woff2');
+  /* اگر فونت شما فرمت woff دارد */
+   src: url('../assets/fonts/Vazir.woff') format('woff');
+  /* اگر فونت شما فرمت otf دارد */
+  /* src: url('/path/to/font.otf') format('opentype'), */
+  /* اگر فونت شما فرمت eot دارد */
+  /* src: url('/path/to/font.eot') format('embedded-opentype'), */
+  /* اگر فونت شما فرمت svg دارد */
+  /* src: url('/path/to/font.svg') format('svg'); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 html,
+
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'vazir';
   color: var(--themeBlack);
   background: var(--background-color);
   overflow-x:hidden;

@@ -1,2 +1,48 @@
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.cart {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  z-index: 99;
+}
+.badge {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  background-color: var(--themeRed);
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  right: -.5rem;
+
+}
+.menu {
+  flex: 1;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  list-style: none;
+  gap: 1rem;
+  z-index: 99;
+}
+.menu>li:hover{
+  cursor: pointer;
+  color: var(--themeRed);
+  
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.logo > span {
+  font-weight: bold;
+  font-size: 1.5em;
 }
